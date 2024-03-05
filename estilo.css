@@ -20,6 +20,7 @@ body {
 
 button{
     margin: 1px;
+    margin-top: 5px;
     width: 92px;
     height: 50px;
     cursor: pointer;
@@ -29,8 +30,10 @@ button{
     border-radius: 5px;
     display: inline;
     box-shadow: 0 0 5px 0 rgb(120, 116, 116);
+    transition: .3s;
 }
 
 button:hover {
     color: #ddd;
+    transform: scale(1.1);
 }
