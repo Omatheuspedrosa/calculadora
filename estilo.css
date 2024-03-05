@@ -1,0 +1,36 @@
+body {
+    background-color: #f4f4f2;
+}
+
+#calculadora {
+    margin: 100px auto;
+    border: 1px solid black;
+    /* height: 200px; */
+    width: 300px;
+}
+
+#calculadora input {
+    width: 97%;
+    height: 30px;
+}
+
+#teclas {
+    padding: 5px;
+}
+
+button{
+    margin: 1px;
+    width: 92px;
+    height: 50px;
+    cursor: pointer;
+    border: none;
+    font-size: 18px;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    display: inline;
+    box-shadow: 0 0 5px 0 rgb(120, 116, 116);
+}
+
+button:hover {
+    color: #ddd;
+}
