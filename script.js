@@ -7,5 +7,6 @@ function limparTecla() {
 }
 
 function calculo() {
-    
+    const result = eval(document.getElementById('display').value);
+    document.getElementById('display').value = result;
 }
